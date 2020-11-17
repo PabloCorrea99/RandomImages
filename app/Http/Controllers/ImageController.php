@@ -21,8 +21,7 @@ class ImageController extends Controller
         "12.jpg",
         "13.jpg",
         "14.jpg",
-        "15.jpg",
-        "16.jpg",
+        "15.jpg"
     );
 
     public function showImages()
