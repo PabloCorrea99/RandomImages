@@ -6,8 +6,6 @@
     <title>Random Images</title>
 </head>
 <body>
-    <h1> LA FRASE ES ........ </h1>
-    <p>{{ $data['storage']->url($data['image_name']) }}</p>
     <img src="{{ $data['storage']->url($data['image_name']) }}" alt="">
 
     <h5>Ip del server:  {{ $data['ip'] }} </h5>
